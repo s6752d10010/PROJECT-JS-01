@@ -5,10 +5,15 @@
 
 
 // Nullish Coalescing Operator __??__
-
+let aa = null
+console.log(aa ?? 100);
 
 // Ternary Conditional Operator __?__:__
+let bb = 10 > 5 ? 'Hello' : 'World';
+console.log(bb);
 
+let dd = 'som' > 'som' ? 'Hello' : 'World';
+console.log(dd);
 
 // Spread Operator __...__
 
